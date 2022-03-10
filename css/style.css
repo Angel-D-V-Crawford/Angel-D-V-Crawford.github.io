@@ -480,7 +480,7 @@ footer {
         font-size: 5vh;
     }
 
-    .nav-title h1 {
+    .nav-title h1 a {
         font-size: 3vh;
     }
 
@@ -490,6 +490,7 @@ footer {
 
     #spanish {
         font-size: 2vh;
+        margin-right: 20px;
     }
 
     #english:hover, #spanish:hover {
