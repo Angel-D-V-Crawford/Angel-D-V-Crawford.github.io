@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Import from google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Import from devicons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+        <!-- My CSS -->
+        <link rel='stylesheet' type='text/css' href='css/style.css'>
+
+        <link rel="icon" href="favicon.png">
+        <script src="https://kit.fontawesome.com/385f3aa051.js" crossorigin="anonymous"></script>
+        <title>Angel D. V. Crawford Portfolio</title>
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+
+                <div class="nav-title">
+                    <h1><a href="#">Angel D. V. Crawford</a></h1>
+                    <a id="english">ENG</a>
+                    <a id="spanish">ESP</a>
+                </div>
+                <button class="toggle-button" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="nav-menu">
+                    <ul>
+                        <li> <a href="#home" id="home_a">Home</a> </li>
+                        <li> <a href="#about" id="about_a">About</a> </li>
+                        <li> <a href="#skills" id="skills_a">Skills</a> </li>
+                        <li> <a href="#portfolio" id="portfolio_a">Portfolio</a> </li>
+                        <li> <a href="#contact" id="contact_a">Contact</a> </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <main>
+            
+            <div class="cover" id="home">
+
+                <div class="title-card">
+                    <h1>Angel D. V. Crawford</h1>
+                    <hr class="solid">
+                    <h3 id="software_developer">Software Developer</h3>
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/angel-david-vazquez-crawford-84564a217/" target="_blank" class="button">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Angel-D-V-Crawford" target="_blank" class="button">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="about-me" id="about">
+
+                <h1 id="about_title">About</h1>
+                <hr class="solid">
+                <p id="about_text">I'm a developer that is passionate about computer science and technology. I enjoy learning new skills and improving the ones I already have. Capable to adaptate to the new technologies and tendencies. 
+                    
+                    When I'm not programming, I am playing videogames, watching movies or spending time with my friends and family.</p>
+                <a href="#" class="button" id="download_cv">
+                    <i class="fas fa-file-download"></i>Download CV
+                </a>
+
+            </div>
+
+            <div class="skills" id="skills">
+
+                <h1 id="skills_title">Skills</h1>
+                <hr class="bold">
+
+                <div class="skill-set">
+                    <ul>
+                        <li>
+                            <i class="devicon-html5-plain colored"></i><p>HTML5</p>
+                        </li>
+                        <li>
+                            <i class="devicon-javascript-plain colored"></i><p>JavaScript</p>
+                        </li>
+                        <li>
+                            <i class="devicon-css3-plain colored"></i><p>CSS</p>
+                        </li>
+                        <li>
+                            <i class="devicon-java-plain colored"></i><p>Java</p>
+                        </li>
+                        <li>
+                            <i class="devicon-android-plain colored"></i><p>Android Studio</p>
+                        </li>
+                        <li>
+                            <i class="devicon-php-plain colored"></i><p>PHP</p>
+                        </li>
+                        <li>
+                            <i class="devicon-mysql-plain colored"></i><p>MySQL</p>
+                        </li>
+                        <li>
+                            <i class="devicon-python-plain colored"></i><p>Python</p>
+                        </li>
+                        <li>
+                            <i class="devicon-nodejs-plain colored"></i><p>Node.js</p>
+                        </li>
+                        <li>
+                            <i class="devicon-bootstrap-plain colored"></i><p>Bootstrap</p>
+                        </li>
+                        <li>
+                            <i class="devicon-mongodb-plain colored"></i><p>MongoDB</p>
+                        </li>
+                        <li>
+                            <i class="devicon-github-original colored"></i><p>GitHub</p>
+                        </li>
+                        <li>
+                            <i class="devicon-vscode-plain colored"></i><p>Visual Studio Code</p>
+                        </li>
+                        <li>
+                            <i class="devicon-photoshop-plain colored"></i><p>Photoshop</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="portfolio" id="portfolio">
+                
+                <h1 id="portfolio_title">Portfolio</h1>
+                <hr class="solid">
+
+                <div class="works">
+                
+                    <!-- App Ideas -->
+                    <div class="work">
+                        <h2>App Ideas</h2>
+                        <img src="images/App-Idea-CRUD.png" alt="App Ideas" class="horizontal" height="400" onclick="openImage(this)">
+                        <p id="app_ideas_text">
+                            A web app used to take notes of application ideas. Save details like the project requirements, 
+                            the technologies to use, and a difficulty indicator for anyone who wants to implement the project idea 
+                            based on their skills.
+                        </p>
+                        <p class="used" id="used_text">Used:<p>
+                        <p class="technologies">
+                            Node.js | MongoDB | JavaScript | HTML5 | CSS
+                        </p>
+                        <div class="buttons">
+                            <a href="https://app-ideas-crud.herokuapp.com/" target="_blank" class="button demo">
+                                <i class="fas fa-laptop"></i>View Demo
+                            </a>
+                            <a href="videos/App-Idea-CRUD_demo.mp4" target="_blank" class="button video">
+                                <i class="fas fa-film"></i>Watch Video
+                            </a>
+                            <a href="https://github.com/Angel-D-V-Crawford/App-Idea-CRUD_NodeJS" target="_blank" class="button code">
+                                <i class="fab fa-github"></i>View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Xelsher -->
+                    <div class="work">
+                        <h2>Xelsher</h2>
+                        <img src="images/Xelsher.png" alt="App Ideas" class="horizontal" height="400" onclick="openImage(this)">
+                        <p id="xelsher_text">
+                            A small social network web application where anyone can make small pixelarts and share them with the world.
+                            You can make friends, comment, and like all the posts you see; as well as you can use the pixelart maker to 
+                            quickly create some art.
+                        </p>
+                        <p class="used" id="used_text">Used:<p>
+                        <p class="technologies">
+                            PHP | MySQL | JavaScript | HTML5 | CSS
+                        </p>
+                        <div class="buttons">
+                            <a href="https://xelsher.herokuapp.com/" target="_blank" class="button demo">
+                                <i class="fas fa-laptop"></i>View Demo
+                            </a>
+                            <a href="videos/Xelsher_demo.mp4" target="_blank" class="button video">
+                                <i class="fas fa-film"></i>Watch Video
+                            </a>
+                            <a href="https://github.com/Angel-D-V-Crawford/Xelsher" target="_blank" class="button code">
+                                <i class="fab fa-github"></i>View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- MP3 Player -->
+                    <div class="work">
+                        <h2>MP3 Player</h2>
+                        <img src="images/MP3-Player-FX.png" alt="MP3 Player FX" height="400" onclick="openImage(this)">
+                        <p id="mp3_player_text">
+                            Desktop MP3 Player where you can listen to your favorite songs and make a playlist. Use arrows to 
+                            control volume and move the song forward or backward.
+                        </p>
+                        <p class="used">Used:<p>
+                        <p class="technologies">
+                            Java | JavaFX | CSS
+                        </p>
+                        <div class="buttons">
+                            <a href="apps/MP3Player.zip" class="button app" download>
+                                <i class="fas fa-laptop"></i>Download App
+                            </a>
+                            <a href="videos/MP3-Player-FX_demo.mp4" target="_blank" class="button video">
+                                <i class="fas fa-film"></i>Watch Video
+                            </a>
+                            <a href="https://github.com/Angel-D-V-Crawford/Mp3-Player_JavaFX" target="_blank" class="button code">
+                                <i class="fab fa-github"></i>View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Pendroid -->
+                    <div class="work">
+                        <h2>Pendroid</h2>
+                        <img src="images/Pendroid.png" alt="Pendroid" height="400" onclick="openImage(this)">
+                        <p id="pendroid_text">
+                            Android Application where you can make a drawing and save it as an image.
+                        </p>
+                        <p class="used">Used:<p>
+                        <p class="technologies">
+                            Java | Android Studio
+                        </p>
+                        <div class="buttons">
+                            <a href="apps/Pendroid.apk" class="button app" download>
+                                <i class="fas fa-laptop"></i>Download App
+                            </a>
+                            <a href="videos/Pendroid_demo.mp4" target="_blank" class="button video">
+                                <i class="fas fa-film"></i>Watch Video
+                            </a>
+                            <a href="https://github.com/Angel-D-V-Crawford/Pendroid_Android-Paint-App" target="_blank" class="button code">
+                                <i class="fab fa-github"></i>View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Tic Tac Toe -->
+                    <div class="work">
+                        <h2>Tic Tac Toe</h2>
+                        <img src="images/Tic-Tac-Toe.png" alt="Tic Tac Toe" height="400" onclick="openImage(this)">
+                        <p id="tic_tac_toe_text">
+                            Desktop Tic Tac Toe game. Have fun playing with the AI. Just for one player. You can play as the noughts (O) 
+                            or as the crosses (X), use the Arrows and Enter on the keyboard to make your decision. Use the mouse to 
+                            select the space corresponding to your turn.
+                        </p>
+                        <p class="used">Used:<p>
+                        <p class="technologies">
+                            Python | Pygame
+                        </p>
+                        <div class="buttons">
+                            <a href="apps/tic_tac_toe.exe" class="button app" download>
+                                <i class="fas fa-laptop"></i>Download App
+                            </a>
+                            <a href="videos/Tic-Tac-Toe_demo.mp4" target="_blank" class="button video">
+                                <i class="fas fa-film"></i>Watch Video
+                            </a>
+                            <a href="https://github.com/Angel-D-V-Crawford/Tic-Tac-Toe_Pygame" target="_blank" class="button code">
+                                <i class="fab fa-github"></i>View Code
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="contact" id="contact">
+
+                <h1 id="contact_title">Contact</h1>
+                <hr class="bold">
+
+                <div class="form">
+                    <input type="text" class="field" id="name" name="name" placeholder="Name" required>
+                    <input type="text" class="field" id="subject" name="subject" placeholder="Subject" required>
+                    <input type="email" class="field" id="email" name="email" placeholder="E-mail" required>
+                    <textarea class="field" id="message" name="message" cols="30" rows="10" placeholder="Message..." required></textarea>
+                    <div class="button-holder">
+                        <button id="submit">Send</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contact-info">
+                <p>
+                    <i class="fas fa-envelope"></i>angel.d.v.craw@gmail.com
+                </p>
+                <p>
+                    <i class="fas fa-phone"></i>+52 6691 53 22 85
+                </p>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/angel-david-vazquez-crawford-84564a217/" target="_blank" class="button">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Angel-D-V-Crawford" target="_blank" class="button">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <footer>
+                <p id="footer_text">
+                    Made by Angel David Vazquez Crawford @2022.
+                </p>
+            </footer>
+
+        </main>
+
+        <script src="js/script.js"></script>
+        <script src="js/translation.js"></script>
+
+    </body>
+
+</html>
