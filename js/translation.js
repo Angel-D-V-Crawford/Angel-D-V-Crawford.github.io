@@ -29,7 +29,7 @@ let translations = {
 
         pendroid_text: 'Aplicación de Android donde puedes realizar dibujos y almacenarlos como imágenes.',
 
-        tic_tac_toe_text: 'Juego de Tres en Línea de escritorio. Diviertete jugando contra la IA. Solo para un jugador. Puedes jugar como los ceros (O) o como las cruces (X), usa las Flechas y Enter en el teclado para realizar tu decisión. Usa el ratón para seleccionar la casilla correspondiente a tu turno.',
+        tic_tac_toe_text: 'Juego de Tres en Línea de escritorio. Diviértete jugando contra la IA. Solo para un jugador. Puedes jugar como los ceros (O) o como las cruces (X), usa las Flechas y Enter en el teclado para realizar tu decisión. Usa el ratón para seleccionar la casilla correspondiente a tu turno.',
 
         name_text: 'Nombre',
         subject_text: 'Asunto',
