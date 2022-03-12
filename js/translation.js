@@ -48,7 +48,7 @@ let translations = {
 
         software_developer: 'Software Developer',
 
-        about_text: 'I\'m a developer that is passionate about computer science and technology. I enjoy learning new skills and improving the ones I already have. Capable to adaptate to the new technologies and tendencies. \n When I\'m not programming, I am playing videogames, watching movies or spending time with my friends and family.',
+        about_text: 'I\'m a developer that is passionate about computer science and technology. I enjoy learning new skills and improving the ones I already have. Capable to adapt to the new technologies and tendencies. \n When I\'m not programming, I am playing videogames, watching movies or spending time with my friends and family.',
         download_cv: '<i class="fas fa-file-download"></i>Download CV',
 
         app_ideas_text: 'A web app used to take notes of application ideas. Save details like the project requirements, the technologies to use, and a difficulty indicator for anyone who wants to implement the project idea based on their skills.',
