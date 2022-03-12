@@ -10,7 +10,7 @@ let translations = {
 
         software_developer: 'Desarrollador de Software',
 
-        about_text: 'Soy un desarrollador apasionado de la informática y la tecnología. Disfruto de aprender nuevas habilidades y mejorar las que ya poseo. Soy capaz de adaptarse a nuevas tecnologías y tendencias. \n Cuando no estoy programando, me encuentro jugando videojuegos, viendo películas o pasando el tiempo con mis amigos y familia.',
+        about_text: 'Soy un desarrollador apasionado de la informática y la tecnología. Disfruto de aprender nuevas habilidades y mejorar las que ya poseo. Soy capaz de adaptarse a nuevas tecnologías y tendencias. \n\n Cuando no estoy programando, me encuentro jugando videojuegos, viendo películas o pasando el tiempo con mis amigos y familia.',
         download_cv: '<i class="fas fa-file-download"></i>Descargar CV',
 
         app_ideas_text: 'Una aplicación web usada para tomar nota de ideas de aplicaciones. Guarda detalles como los requerimientos del proyecto, las tecnologías a usar, y un indicador de dificultad para cualquiera que quiera implementar la idea del proyecto basado en sus habilidades.',
