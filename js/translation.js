@@ -11,7 +11,8 @@ let translations = {
         software_developer: 'Desarrollador de Software',
 
         about_text: 'Soy un desarrollador apasionado de la informática y la tecnología. Disfruto de aprender nuevas habilidades y mejorar las que ya poseo. Soy capaz de adaptarse a nuevas tecnologías y tendencias. \n\n Cuando no estoy programando, me encuentro jugando videojuegos, viendo películas o pasando el tiempo con mis amigos y familia.',
-        download_cv: '<i class="fas fa-file-download"></i>Descargar CV',
+        download_cv: '<i class="fas fa-file-download"></i>Descargar CV (Inglés)',
+        download_cv_spanish: '<i class="fas fa-file-download"></i>Descargar CV (Español)',
 
         app_ideas_text: 'Una aplicación web usada para tomar nota de ideas de aplicaciones. Guarda detalles como los requerimientos del proyecto, las tecnologías a usar, y un indicador de dificultad para cualquiera que quiera implementar la idea del proyecto basado en sus habilidades.',
 
@@ -48,8 +49,9 @@ let translations = {
 
         software_developer: 'Software Developer',
 
-        about_text: 'I\'m a developer that is passionate about computer science and technology. I enjoy learning new skills and improving the ones I already have. Capable to adapt to the new technologies and tendencies. \n When I\'m not programming, I am playing videogames, watching movies or spending time with my friends and family.',
-        download_cv: '<i class="fas fa-file-download"></i>Download CV',
+        about_text: 'I\'m a developer that is passionate about computer science and technology. I enjoy learning new skills and improving the ones I already have. Capable to adapt to the new technologies and tendencies. \n\n When I\'m not programming, I am playing videogames, watching movies or spending time with my friends and family.',
+        download_cv: '<i class="fas fa-file-download"></i>Download CV (English)',
+        download_cv_spanish: '<i class="fas fa-file-download"></i>Download CV (Spanish)',
 
         app_ideas_text: 'A web app used to take notes of application ideas. Save details like the project requirements, the technologies to use, and a difficulty indicator for anyone who wants to implement the project idea based on their skills.',
 
@@ -98,6 +100,7 @@ spanish.addEventListener('click', () => {
     about_title.innerText = translations.esp.about;
     about_text.innerText = translations.esp.about_text;
     download_cv.innerHTML = translations.esp.download_cv;
+    download_cv_spanish.innerHTML = translations.esp.download_cv_spanish;
 
     skills_title.innerText = translations.esp.skills;
 
@@ -162,6 +165,7 @@ english.addEventListener('click', () => {
     about_title.innerText = translations.eng.about;
     about_text.innerText = translations.eng.about_text;
     download_cv.innerHTML = translations.eng.download_cv;
+    download_cv_spanish.innerHTML = translations.eng.download_cv_spanish;
 
     skills_title.innerText = translations.eng.skills;
 
