@@ -477,11 +477,15 @@ footer {
 @media (max-width: 720px) {
 
     * {
-        font-size: 5vh;
+        font-size: 3vh;
+    }
+
+    .navbar {
+        position: fixed;
     }
 
     .nav-title h1 a {
-        font-size: 3vh;
+        font-size: 2vh;
     }
 
     #english {
@@ -490,7 +494,7 @@ footer {
 
     #spanish {
         font-size: 2vh;
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     #english:hover, #spanish:hover {
@@ -502,14 +506,42 @@ footer {
         transform: scale(0.7);
     }
 
+    .nav-menu a {
+        font-size: 3vh;
+    }
+
     .title-card { 
         width: 80%;
         transform: scale(0.8);
     }
 
+    .title-card h1 {
+        font-size: 5vh;
+    }
+
+    .title-card h3 {
+        text-align: center;
+        font-size: 5vh;
+    }
+
+    .title-card .links a i {
+        font-size: 5vh;
+    }
+
     .works {
         max-width: 80%;
         font-size: 2vh;
+    }
+
+    .button {
+        display: block;
+        font-size: 4vh;
+        text-align: center;
+    }
+
+    .button i {
+        font-size: 4vh;
+        text-align: center;
     }
 
     .buttons {
@@ -520,6 +552,11 @@ footer {
         display: flex;
         justify-content: center;
         transform: scale(0.7);
+        font-size: 4vh;
+    }
+
+    .contact-info p i {
+        font-size: 4vh;
     }
 
     footer p {
