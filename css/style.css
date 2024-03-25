@@ -207,6 +207,19 @@ hr.bold {
     cursor: pointer;
 }
 
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: line-through;
+}
+
+.disabled::after {
+    display: inline-block;
+    content: ' Page Not Available';
+    white-space: pre;
+    text-decoration: none;
+}
+
 .skills {
     display: block;
     width: 100%;
