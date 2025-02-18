@@ -13,6 +13,8 @@ let translations = {
         download_cv: '<i class="fas fa-file-download"></i>Descargar CV (Inglés)',
         download_cv_spanish: '<i class="fas fa-file-download"></i>Descargar CV (Español)',
 
+        minesweeper_text: 'Un juego de Buscaminas para escritorio hecho con C# y .NET. Incluye tres modos de dificultad (Facil, Medio, Difícil).',
+
         react_calculator_text: 'Una aplicacion web de una Calculadora hecha con React. Escribe una expresión, después, evalua y calcula para ofrecer el resultado buscado.',
 
         app_ideas_text: 'Una aplicación web usada para tomar nota de ideas de aplicaciones. Guarda detalles como los requerimientos del proyecto, las tecnologías a usar, y un indicador de dificultad para cualquiera que quiera implementar la idea del proyecto basado en sus habilidades.',
@@ -53,6 +55,8 @@ let translations = {
         about_text: 'I\'m a developer that is passionate about computer science and technology. I enjoy learning new skills and improving the ones I already have. Capable to adapt to the new technologies and tendencies. Skilled at communicating and learning mutually with other people. \n\n When I\'m not programming, I am playing videogames, watching movies or spending time with my friends and family.',
         download_cv: '<i class="fas fa-file-download"></i>Download CV (English)',
         download_cv_spanish: '<i class="fas fa-file-download"></i>Download CV (Spanish)',
+
+        minesweeper_text: 'A Minesweeper game made with C# and .NET for desktop. Has three difficulty modes (Easy, Medium, Hard).',
 
         react_calculator_text: 'A web app Calculator made with React. It writes an expression and then evaluates and calculates to offer the looked result.',
 
@@ -108,6 +112,8 @@ spanish.addEventListener('click', () => {
     skills_title.innerText = translations.esp.skills;
 
     portfolio_title.innerText = translations.esp.portfolio;
+
+    minesweeper_text.innerText = translations.esp.minesweeper_text;
 
     react_calculator_text.innerText = translations.esp.react_calculator_text;
 
@@ -175,6 +181,8 @@ english.addEventListener('click', () => {
     skills_title.innerText = translations.eng.skills;
 
     portfolio_title.innerText = translations.eng.portfolio;
+
+    minesweeper_text.innerText = translations.eng.minesweeper_text;
 
     react_calculator_text.innerText = translations.eng.react_calculator_text;
 
